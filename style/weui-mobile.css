@@ -41,6 +41,9 @@
 .txt_indent{
 	text-indent: 2em;
 }
+.radius_round{
+	border-radius: 55px;
+}
 footer{
 	position: fixed;
 	bottom: 0;
@@ -56,4 +59,9 @@ footer a{
 }
 .outline_none{
 	outline: none;
+}
+.bg_img{
+	width: 100px;
+	height: 100px;
+	/* background: url('../images/about/demoimg.png') 100px 100px; */
 }

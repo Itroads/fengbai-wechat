@@ -7,8 +7,58 @@
 	<link rel="stylesheet" type="text/css" href="../style/weui-mobile.css"/>
 	<link rel="stylesheet" type="text/css" href="../style/font-awesome.min.css"/>
 	<title></title>
+	<style>
+		.justify{
+			justify-content: center;
+		}
+		.align{
+			align-items: center;
+		}
+		.column{
+			flex-direction: column;
+		}
+		.wid{
+			width: 7em;
+			height: 7em;
+		}
+
+	</style>
 </head>
 <body>
-	
+	<div class="weui-flex cell_border_btm">
+		<div class="weui-flex__item weui-flex justify">
+			<img src="../images/about/demoimg.png" class="wid" alt="">
+		</div>
+		<div class="weui-flex__item">
+			<div>
+				<p>姓名：<span>林佳兴</span></p>
+			</div>
+			<div>
+				<p>职称：<span>首席设计师</span></p>				
+			</div>
+		</div>
+	</div>
+	<!-- 在建工地 和 通讯录 -->
+	<div class="weui-flex">
+		<div class="weui-flex__item weui-flex justify align column">
+			<img src="../images/about/demoimg.png" class="wid" alt="">
+			<p>在建工地</p>
+		</div>
+		<div class="weui-flex__item weui-flex justify align column">
+			<img src="../images/about/demoimg.png" class="wid" alt="">
+			<p>通讯录</p>
+		</div>
+	</div>
+	<!-- 我的工地管理 和 审核纪录 -->
+	<div class="weui-flex">
+		<div class="weui-flex__item weui-flex justify align column">
+			<img src="../images/about/demoimg.png" class="wid" alt="">
+			<p>工地管理</p>
+		</div>
+		<div class="weui-flex__item weui-flex justify align column">
+			<img src="../images/about/demoimg.png" class="wid" alt="">
+			<p>审核纪录</p>
+		</div>
+	</div>
 </body>
 </html>
